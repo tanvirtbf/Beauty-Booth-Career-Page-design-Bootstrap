@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+  font-family: Roboto;
+}
+.roboto{
+  font-family: Roboto;
+}
+.heading{
+  font-family: Arsenal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.bg-background {
+  background-color: #FFF3EB;
+}
+.bg-icon{
+  background-color: #FFF3EB;
+}
+.boxs{
+  box-shadow: 0 4 16 0 #000000 6%;
+}
