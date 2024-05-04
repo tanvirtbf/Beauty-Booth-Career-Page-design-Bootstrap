@@ -19,7 +19,7 @@
 .boxs{
   box-shadow: 0 4 16 0 #000000 6%;
 }
-.green-btn, .close-btn{
+.green-btn, .close-btn, .trans-btn{
   border-radius: 6px;
   background-color: #00CA8D;
   font-weight: 500;
@@ -32,4 +32,9 @@
 }
 .close-btn{
   background-color: #999999;
+}
+.trans-btn{
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  color: #5A5A5A;
 }
