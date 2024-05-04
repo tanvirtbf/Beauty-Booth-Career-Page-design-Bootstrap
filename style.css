@@ -13,6 +13,9 @@
 .gap-12{
   gap:12px;
 }
+.gap-6{
+  gap:6px;
+}
 
 
 /* margin */
@@ -47,8 +50,10 @@ h1,h2,h3,h4,h5,h6,div,p{
   font-family: Roboto;
 }
 .heading{
+  font-size: 18px;
   font-family: Arsenal;
   font-weight: 700;
+  line-height: 24px;
 }
 .bg-background {
   background-color: #FFF3EB;
@@ -63,12 +68,12 @@ h1,h2,h3,h4,h5,h6,div,p{
   border-radius: 6px;
   background-color: #00CA8D;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   color: #FFFFFF;
-  line-height: 20px;
+  line-height: 16px;
   border: 0;
   outline: 0;
-  padding: 12px 20px 12px 20px;
+  padding: 10px 20px 10px 20px;
 }
 .close-btn{
   background-color: #999999;
@@ -102,6 +107,17 @@ h1,h2,h3,h4,h5,h6,div,p{
   color: #717171;
   line-height: 24px;
 }
+.fs-para{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.role{
+  font-size: 14px;
+  font-weight: 400;
+  color: #717171;
+  line-height: 20px;
+}
 
 
 
@@ -114,23 +130,21 @@ h1,h2,h3,h4,h5,h6,div,p{
   }
   .fs-para{
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
   }
   .heading-h3{
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
   }
-}
-@media ((min-width: 300px) and (max-width: 575px)){
-  .heading{
-    font-size: 18px;
-    font-family: Arsenal;
-    font-weight: 700;
-    line-height: 24px;
+  .role{
+    font-size: 12px;
+    line-height: 16px;
   }
-  .fs-para{
+  .green-btn, .close-btn, .trans-btn{
     font-size: 14px;
+    line-height: 20px;
+    padding: 12px 20px 12px 20px;
   }
 }
+/* @media ((min-width: 300px) and (max-width: 575px)){
+} */
