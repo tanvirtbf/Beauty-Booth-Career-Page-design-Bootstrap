@@ -19,3 +19,17 @@
 .boxs{
   box-shadow: 0 4 16 0 #000000 6%;
 }
+.green-btn, .close-btn{
+  border-radius: 6px;
+  background-color: #00CA8D;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 20px;
+  border: 0;
+  outline: 0;
+  padding: 12px 20px 12px 20px;
+}
+.close-btn{
+  background-color: #999999;
+}
