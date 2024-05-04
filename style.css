@@ -38,3 +38,21 @@
   border: 1px solid #DDDDDD;
   color: #5A5A5A;
 }
+.career-view-heading{
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 500;
+  color: #222222;
+}
+.career-view-para{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #717171;
+}
+.link{
+  color: #FF1A58;
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 400;
+}
