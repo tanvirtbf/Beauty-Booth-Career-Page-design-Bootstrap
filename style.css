@@ -74,6 +74,7 @@ h1,h2,h3,h4,h5,h6,div,p{
   border: 0;
   outline: 0;
   padding: 10px 20px 10px 20px;
+  width: 50%;
 }
 .close-btn{
   background-color: #999999;
@@ -82,6 +83,9 @@ h1,h2,h3,h4,h5,h6,div,p{
   background-color: #FFFFFF;
   border: 1px solid #DDDDDD;
   color: #5A5A5A;
+}
+.p-12{
+  padding: 12px;
 }
 .career-view-heading{
   font-size: 1rem;
@@ -118,6 +122,9 @@ h1,h2,h3,h4,h5,h6,div,p{
   color: #717171;
   line-height: 20px;
 }
+.cart-padding{
+  padding: 16px;
+}
 
 
 
@@ -144,6 +151,13 @@ h1,h2,h3,h4,h5,h6,div,p{
     font-size: 14px;
     line-height: 20px;
     padding: 12px 20px 12px 20px;
+    width: fit-content;
+  }
+  .cart-padding{
+    padding: 20px;
+  }
+  .p-12{
+    padding: 0;
   }
 }
 /* @media ((min-width: 300px) and (max-width: 575px)){
