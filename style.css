@@ -5,13 +5,50 @@
   box-sizing: border-box;
   font-family: Roboto;
 }
+
+/* gap  */
+.gap-20{
+  gap: 20px;
+}
+.gap-12{
+  gap:12px;
+}
+
+
+/* margin */
+.mt-20{
+  margin-top: 20px;
+}
+.mt-32{
+  margin-top: 32px;
+}
+.mt-44{
+  margin-top: 44px;
+}
+.mt-16{
+  margin-top: 16px;
+}
+
+
+
+.heading-h3{
+  font-size: 14px;
+  font-weight: 500;
+  color: #222222;
+  line-height: 20px;
+}
+
+
+h1,h2,h3,h4,h5,h6,div,p{
+  padding: 0;
+  margin: 0;
+}
 .roboto{
   font-family: Roboto;
 }
 .heading{
   font-family: Arsenal;
   font-weight: 700;
-  font-size: 24px;
 }
 .bg-background {
   background-color: #FFF3EB;
@@ -65,11 +102,35 @@
   color: #717171;
   line-height: 24px;
 }
-/* gap  */
-.gap-20{
-  gap: 20px;
+
+
+
+@media ((min-width: 576px) and (max-width: 2200px)){
+  .heading{
+    font-size: 24px;
+    font-family: Arsenal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .fs-para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .heading-h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
 }
-/* margin */
-.mt-20{
-  margin-top: 20px;
+@media ((min-width: 300px) and (max-width: 575px)){
+  .heading{
+    font-size: 18px;
+    font-family: Arsenal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .fs-para{
+    font-size: 14px;
+  }
 }
