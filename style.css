@@ -18,6 +18,8 @@
 }
 
 
+
+
 /* margin */
 .mt-20{
   margin-top: 20px;
@@ -162,9 +164,16 @@ h1,h2,h3,h4,h5,h6,div,p{
   margin-top: 24px;
 }
 .skitto{
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #222222;
+}
+.skitto-el{
   padding: 6px 18px 6px 18px;
-  border-radius: 20px 0px 0px 0px;
-  color: #F1F2F7;
+  border-radius: 20px;
+  background-color: #F1F2F7;
 }
 
 
