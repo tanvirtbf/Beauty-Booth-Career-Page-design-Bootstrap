@@ -215,6 +215,7 @@ h1,h2,h3,h4,h5,h6,div,p{
     font-size: 14px;
     line-height: 20px;
     padding: 12px 20px 12px 20px;
+    width: fit-content;
   }
   .cart-padding{
     padding: 20px;
